@@ -10,22 +10,8 @@ public class App {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-        //prompt
-        System.out.println("    _______________________________\n");
-        System.out.println("              `.,\n" +
-"        `.     -o-      .`  .'\n" +
-"   (!) _) \\_   / `     -o-_/ (_ (!)\n" +
-"        ( /}  /        '|`{\\ \\\n" +
-"        ) \\--/          |_/(  \\\n" +
-"       /___\\            | (__(\n" +
-"       \"'   \"\"              ' '");
-        System.out.println("        [WIZARDS AND WARLOCKS]");
-        System.out.println("    _______________________________\n"); 
-        System.out.println("              starting...\n");
-        System.out.println(">>>\nGame Legends: \nCharacter Name\n[Health Points, Mana Points]\n\n"); //example: Izuru [100, 200]
-        System.out.println("          players entering...\n");
-        System.out.println("               loading...\n\n");
-
+        Character promt = new Character();
+        
         //making characters
         Wizard Merlin = new Wizard("Izuru");
         Warlock Saruman = new Warlock("Astel");
