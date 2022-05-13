@@ -20,7 +20,22 @@ public class Character {
     public String type;
 
     Character(){
-        System.out.println("yubiyubi");
+        //prompt
+        System.out.println("    _______________________________\n");
+        System.out.println("              `.,\n" +
+        "        `.     -o-      .`  .'\n" +
+        "   (!) _) \\_   / `     -o-_/ (_ (!)\n" +
+        "        ( /}  /        '|`{\\ \\\n" +
+        "        ) \\--/          |_/(  \\\n" +
+        "       /___\\            | (__(\n" +
+        "       \"'   \"\"              ' '");
+        System.out.println("        [WIZARDS AND WARLOCKS]");
+        System.out.println("    _______________________________\n"); 
+        System.out.println("              starting...\n");
+        System.out.println(">>>\nGame Legends: \nCharacter Name\n[Health Points, Mana Points]\n\n"); //example: Izuru [100, 200]
+        System.out.println("          players entering...\n");
+        System.out.println("               loading...\n\n");
+
     }
 
     //initialization of the properties
